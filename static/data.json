@@ -1,0 +1,52 @@
+{
+    "cities": [
+        {
+            "name": "Moscow",
+            "temperature": 1,
+            "windSpeed": 11,
+            "windDirection": "SE",
+            "pressure": 1025.1,
+            "id" : "1"
+        },
+        {
+            "name": "London",
+            "temperature": 12,
+            "windSpeed": 13,
+            "windDirection": "SW",
+            "pressure": 992.2,
+            "id" : "2"
+        },
+        {
+            "name": "New York",
+            "temperature": 11,
+            "windSpeed": 24,
+            "windDirection": "NE",
+            "pressure": 1008.8,
+            "id" : "3"
+        },
+        {
+            "name": "Tokyo",
+            "temperature": 22,
+            "windSpeed": 10,
+            "windDirection": "NE",
+            "pressure": 1016.3,
+            "id" : "4"
+        },
+        {
+            "name": "Hong Kong",
+            "temperature": 24,
+            "windSpeed": 25,
+            "windDirection": "E",
+            "pressure": 1019.0,
+            "id" : "5"
+        },
+        {
+            "name": "Rio de Janeiro",
+            "temperature": 22,
+            "windSpeed": 6,
+            "windDirection": "E",
+            "pressure": 1016.3,
+            "id" : "6"
+        }
+    ]
+}
