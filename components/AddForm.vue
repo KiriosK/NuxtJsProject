@@ -13,7 +13,7 @@
       >
     </p>
     <p>
-      <label for="temperature">Temperature</label>
+      <label for="temperature">Temperature(°C)</label>
       <input
         id="temperature"
         v-model="temperature"
@@ -22,7 +22,7 @@
       >
     </p>    
     <p>
-      <label for="windSpeed">WindSpeed</label>
+      <label for="windSpeed">WindSpeed(km/h)</label>
       <input
         id="windSpeed"
         v-model="windSpeed"
@@ -46,7 +46,7 @@
       </select>
     </p>
     <p>
-      <label for="pressure">Pressure</label>
+      <label for="pressure">Pressure(mb)</label>
       <input
         id="pressure"
         v-model="pressure"
@@ -111,13 +111,16 @@ export default {
 
 <style>
 #form {
-  margin: 5%;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
-
+#form label {
+  margin-right: 1rem;
+}
 #form p {
   display: flex;
+  margin: 0.5rem;
   justify-content: space-between;
 }
 </style>

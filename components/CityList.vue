@@ -1,5 +1,6 @@
 <template>
   <div class="listContainer">
+    <h1 class="listInfo"> {{ cities.length }} cities in list </h1>
     <City 
       v-for="city in paginatedCities"
       :city="city"
@@ -19,7 +20,6 @@
       >
         Next
       </button>
-      <p> Cities in list: {{ cities.length }}</p>
     </span>
   </div>
 </template>
@@ -69,6 +69,10 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   min-height: 70vh;
+  margin: .5rem;
+}
+.listInfo{
+  text-align: center;
 }
 </style>
 
